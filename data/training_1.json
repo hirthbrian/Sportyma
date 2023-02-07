@@ -1,0 +1,13 @@
+{
+    "id": 1,
+    "startdate": "2023-02-16T20:35:00+00:00",
+    "enddate": "2023-02-16T20:35:00+00:00",
+    "title": "Entraînement à Strasbourg",
+    "participation": null,
+    "location": {
+        "place": "Stade de la Meinau",
+        "address": "12 rue de l’Extenwoerth",
+        "city": "67100 Strasbourg"
+    },
+    "information": "N’oubliez pas vos lorem ipsum dolor sit amet, consectetur adipiscing elit."
+}
