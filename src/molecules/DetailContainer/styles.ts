@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.View`
-  background-color: #2559f2;
-  border-radius: 30px;
+  padding-top: 15px;
+  flex-direction: row;
 `;
 
 export const Day = styled.Text`

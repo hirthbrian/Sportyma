@@ -1,6 +1,7 @@
+import { format } from "date-fns";
+
 import Text from "../../atoms/TextKanit";
 import DayPill from "../../molecules/DayPill";
-import BigHour from "../../molecules/BigHour";
 
 import { Container } from "./styles";
 import { Props } from "./types";
@@ -12,7 +13,7 @@ const PageHeader = ({ title, date }: Props) => {
         {title}
       </Text>
       <DayPill date={date} />
-      <BigHour date={date} />
+      <Text size={20}>{format(new Date(date), "HH:mm")}</Text>
     </Container>
   );
 };

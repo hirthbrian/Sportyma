@@ -1,5 +1,11 @@
+import SectionTitle from "../../atoms/SectionTitle";
+
 const ParticipationStatus = () => {
-  return <></>;
+  return (
+    <>
+      <SectionTitle title="Ma participation" />
+    </>
+  );
 };
 
 export default ParticipationStatus;

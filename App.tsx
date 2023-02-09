@@ -3,6 +3,10 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { useFonts } from "expo-font";
 
+var setDefaultOptions = require("date-fns/setDefaultOptions");
+import { fr } from "date-fns/locale";
+setDefaultOptions({ locale: fr });
+
 import Home from "./src/views/Home";
 import Event from "./src/views/Event";
 
@@ -22,7 +26,7 @@ const App = () => {
       <StatusBar style="auto" />
       <NavigationContainer>
         <Stack.Navigator>
-          {/* <Stack.Screen name="Home" component={Home} /> */}
+          <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="Event" component={Event} />
         </Stack.Navigator>
       </NavigationContainer>

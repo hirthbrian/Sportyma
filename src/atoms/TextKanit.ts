@@ -14,5 +14,5 @@ export default styled.Text`
     return "Kanit-Regular";
   }};
   font-size: ${(props: Props) => props.size || 16}px;
-  color: ${(props: Props) => props.color || "#000000"};
+  color: ${(props: Props) => props.color || "#152D4B"};
 `;
