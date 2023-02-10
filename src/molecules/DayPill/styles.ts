@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import KanitText from "../../atoms/KanitText";
+import { KanitText } from "../../atoms";
 
 export const Container = styled.View`
   background-color: #2559f2;

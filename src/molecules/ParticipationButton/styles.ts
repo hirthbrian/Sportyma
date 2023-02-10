@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import KanitText from "../../atoms/KanitText";
+import { KanitText } from "../../atoms";
 
 interface ContainerProps {
   color: string;

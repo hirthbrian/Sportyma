@@ -1,7 +1,7 @@
 import { useNavigation } from "@react-navigation/native";
 import { useAppSelector } from "../../redux/hook";
 
-import { ParticipationPill } from "../../molecules";
+import { ParticipationButton } from "../../molecules";
 import { Separator } from "../../atoms";
 import { loadEventData } from "../../utils";
 
@@ -23,7 +23,7 @@ const Home = () => {
   const renderItem = ({ item: { title, id } }) => {
     const status = participationStatus[id];
     return (
-      <ParticipationPill
+      <ParticipationButton
         title={title}
         activeColor={getActiveColor(status)}
         isActive={status === "PRESENT" || status === "ABSENT"}

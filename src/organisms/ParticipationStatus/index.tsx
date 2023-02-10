@@ -1,6 +1,5 @@
-
-import SectionTitle from "../../atoms/SectionTitle";
-import ParticipationPill from "../../molecules/ParticipationPill";
+import { SectionTitle } from "../../atoms";
+import { ParticipationButton } from "../../molecules";
 
 import { useAppSelector, useAppDispatch } from "../../redux/hook";
 
@@ -34,7 +33,7 @@ const ParticipationStatus = ({ eventId }: Props) => {
     <>
       <SectionTitle title="Ma participation" />
       <Container>
-        <ParticipationPill
+        <ParticipationButton
           title="Présent"
           icon={tickIcon}
           activeColor="#29D48C"
@@ -42,7 +41,7 @@ const ParticipationStatus = ({ eventId }: Props) => {
           isActive={participationStatus === "PRESENT"}
         />
         <HorizontalSeparator />
-        <ParticipationPill
+        <ParticipationButton
           title="Absent"
           icon={crossIcon}
           activeColor="#EF4948"
