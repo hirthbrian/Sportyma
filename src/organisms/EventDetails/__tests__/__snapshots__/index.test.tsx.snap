@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventDetails /> match snapshot 1`] = `
+Array [
+  <Text
+    size={20}
+    style={
+      Array [
+        Object {
+          "color": "#152D4B",
+          "fontFamily": "Kanit-Medium",
+          "fontSize": 20,
+        },
+      ]
+    }
+    weight={500}
+  >
+    test
+  </Text>,
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 15,
+        },
+      ]
+    }
+  >
+    <View
+      color="#E3E8F9"
+      size={36}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E3E8F9",
+            "borderRadius": 18,
+            "height": 36,
+            "justifyContent": "center",
+            "marginRight": 10,
+            "width": 36,
+          },
+        ]
+      }
+    >
+      <Image
+        color="#2559F2"
+        source={1}
+        style={
+          Array [
+            Object {
+              "height": 18,
+              "tintColor": "#2559F2",
+              "width": 18,
+            },
+          ]
+        }
+      />
+    </View>
+    <View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#152D4B",
+              "fontFamily": "Kanit-Regular",
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Thursday 16 February 2023
+      </Text>
+      <Text
+        color="#778EB9"
+        style={
+          Array [
+            Object {
+              "color": "#778EB9",
+              "fontFamily": "Kanit-Light",
+              "fontSize": 16,
+            },
+          ]
+        }
+        weight={300}
+      >
+        21:35 - 21:35
+      </Text>
+    </View>
+  </View>,
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 15,
+        },
+      ]
+    }
+  >
+    <View
+      color="#E3E8F9"
+      size={36}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E3E8F9",
+            "borderRadius": 18,
+            "height": 36,
+            "justifyContent": "center",
+            "marginRight": 10,
+            "width": 36,
+          },
+        ]
+      }
+    >
+      <Image
+        color="#2559F2"
+        source={1}
+        style={
+          Array [
+            Object {
+              "height": 18,
+              "tintColor": "#2559F2",
+              "width": 18,
+            },
+          ]
+        }
+      />
+    </View>
+    <View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#152D4B",
+              "fontFamily": "Kanit-Regular",
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Stade de la Meinau
+      </Text>
+      <Text
+        color="#778EB9"
+        style={
+          Array [
+            Object {
+              "color": "#778EB9",
+              "fontFamily": "Kanit-Light",
+              "fontSize": 16,
+            },
+          ]
+        }
+        weight={300}
+      >
+        12 rue de l’Extenwoerth,
+67100 Strasbourg
+      </Text>
+    </View>
+  </View>,
+]
+`;

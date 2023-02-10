@@ -1,0 +1,548 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Event /> match snapshot 1`] = `
+<RCTScrollView
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#ffffff",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingBottom": 0,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "paddingTop": 15,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#2559f2",
+              "borderRadius": 30,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#ffffff",
+                "fontFamily": "Kanit-Regular",
+                "fontSize": 16,
+                "letterSpacing": 1,
+                "paddingBottom": 4,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 4,
+              },
+              Object {
+                "fontSize": 12,
+              },
+            ]
+          }
+        >
+          16 FEBRUARY
+        </Text>
+      </View>
+      <Text
+        size={20}
+        style={
+          Array [
+            Object {
+              "color": "#152D4B",
+              "fontFamily": "Kanit-Regular",
+              "fontSize": 20,
+            },
+          ]
+        }
+      >
+        21:35
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#dfe5ec",
+            "height": 1,
+            "lineHeight": 28,
+            "marginBottom": 15,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 15,
+          },
+        ]
+      }
+    />
+    <Text
+      size={20}
+      style={
+        Array [
+          Object {
+            "color": "#152D4B",
+            "fontFamily": "Kanit-Medium",
+            "fontSize": 20,
+          },
+        ]
+      }
+      weight={500}
+    >
+      Ma participation
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "paddingTop": 15,
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "transform": Array [
+                Object {
+                  "scale": 1,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            color="#29D48C"
+            isActive={false}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#2559f233",
+                  "borderRadius": 50,
+                  "borderWidth": 2,
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "center",
+                },
+              ]
+            }
+          >
+            <Image
+              color="#29D48C"
+              isActive={false}
+              source={1}
+              style={
+                Array [
+                  Object {
+                    "height": 18,
+                    "marginRight": 10,
+                    "tintColor": "#2559F2",
+                    "width": 18,
+                  },
+                ]
+              }
+            />
+            <Text
+              isActive={false}
+              size={13}
+              style={
+                Array [
+                  Object {
+                    "color": "#2559F2",
+                    "fontFamily": "Kanit-Medium",
+                    "fontSize": 13,
+                    "letterSpacing": 1,
+                  },
+                ]
+              }
+              weight={500}
+            >
+              PRÉSENT
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "width": 15,
+            },
+          ]
+        }
+      />
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "transform": Array [
+                Object {
+                  "scale": 1,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            color="#EF4948"
+            isActive={false}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#2559f233",
+                  "borderRadius": 50,
+                  "borderWidth": 2,
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "center",
+                },
+              ]
+            }
+          >
+            <Image
+              color="#EF4948"
+              isActive={false}
+              source={1}
+              style={
+                Array [
+                  Object {
+                    "height": 18,
+                    "marginRight": 10,
+                    "tintColor": "#2559F2",
+                    "width": 18,
+                  },
+                ]
+              }
+            />
+            <Text
+              isActive={false}
+              size={13}
+              style={
+                Array [
+                  Object {
+                    "color": "#2559F2",
+                    "fontFamily": "Kanit-Medium",
+                    "fontSize": 13,
+                    "letterSpacing": 1,
+                  },
+                ]
+              }
+              weight={500}
+            >
+              ABSENT
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#dfe5ec",
+            "height": 1,
+            "lineHeight": 28,
+            "marginBottom": 15,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 15,
+          },
+        ]
+      }
+    />
+    <Text
+      size={20}
+      style={
+        Array [
+          Object {
+            "color": "#152D4B",
+            "fontFamily": "Kanit-Medium",
+            "fontSize": 20,
+          },
+        ]
+      }
+      weight={500}
+    >
+      Entraînement à Strasbourg
+    </Text>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "paddingTop": 15,
+          },
+        ]
+      }
+    >
+      <View
+        color="#E3E8F9"
+        size={36}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E3E8F9",
+              "borderRadius": 18,
+              "height": 36,
+              "justifyContent": "center",
+              "marginRight": 10,
+              "width": 36,
+            },
+          ]
+        }
+      >
+        <Image
+          color="#2559F2"
+          source={1}
+          style={
+            Array [
+              Object {
+                "height": 18,
+                "tintColor": "#2559F2",
+                "width": 18,
+              },
+            ]
+          }
+        />
+      </View>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#152D4B",
+                "fontFamily": "Kanit-Regular",
+                "fontSize": 16,
+              },
+            ]
+          }
+        >
+          Thursday 16 February 2023
+        </Text>
+        <Text
+          color="#778EB9"
+          style={
+            Array [
+              Object {
+                "color": "#778EB9",
+                "fontFamily": "Kanit-Light",
+                "fontSize": 16,
+              },
+            ]
+          }
+          weight={300}
+        >
+          21:35 - 21:35
+        </Text>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "paddingTop": 15,
+          },
+        ]
+      }
+    >
+      <View
+        color="#E3E8F9"
+        size={36}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E3E8F9",
+              "borderRadius": 18,
+              "height": 36,
+              "justifyContent": "center",
+              "marginRight": 10,
+              "width": 36,
+            },
+          ]
+        }
+      >
+        <Image
+          color="#2559F2"
+          source={1}
+          style={
+            Array [
+              Object {
+                "height": 18,
+                "tintColor": "#2559F2",
+                "width": 18,
+              },
+            ]
+          }
+        />
+      </View>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#152D4B",
+                "fontFamily": "Kanit-Regular",
+                "fontSize": 16,
+              },
+            ]
+          }
+        >
+          Stade de la Meinau
+        </Text>
+        <Text
+          color="#778EB9"
+          style={
+            Array [
+              Object {
+                "color": "#778EB9",
+                "fontFamily": "Kanit-Light",
+                "fontSize": 16,
+              },
+            ]
+          }
+          weight={300}
+        >
+          12 rue de l’Extenwoerth,
+67100 Strasbourg
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#dfe5ec",
+            "height": 1,
+            "lineHeight": 28,
+            "marginBottom": 15,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 15,
+          },
+        ]
+      }
+    />
+    <Text
+      size={20}
+      style={
+        Array [
+          Object {
+            "color": "#152D4B",
+            "fontFamily": "Kanit-Medium",
+            "fontSize": 20,
+          },
+        ]
+      }
+      weight={500}
+    >
+      Informations
+    </Text>
+    <Text
+      color="#152D4B"
+      style={
+        Array [
+          Object {
+            "color": "#152D4B",
+            "fontFamily": "Kanit-Light",
+            "fontSize": 16,
+          },
+        ]
+      }
+      weight={300}
+    >
+      N’oubliez pas vos lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </Text>
+  </View>
+</RCTScrollView>
+`;

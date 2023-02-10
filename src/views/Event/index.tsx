@@ -17,6 +17,7 @@ const Event = () => {
   const navigation = useNavigation();
   const route = useRoute();
   const data = loadEventData();
+
   const event = data[route.params.id - 1];
 
   const { id, title, startdate, enddate, location, information } = event;

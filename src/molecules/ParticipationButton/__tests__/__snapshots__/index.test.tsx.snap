@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ParticipationButton /> match snapshot 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "transform": Array [
+          Object {
+            "scale": 1,
+          },
+        ],
+      }
+    }
+  >
+    <View
+      color="red"
+      isActive={false}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#2559f233",
+            "borderRadius": 50,
+            "borderWidth": 2,
+            "flexDirection": "row",
+            "height": 50,
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <Image
+        color="red"
+        isActive={false}
+        style={
+          Array [
+            Object {
+              "height": 18,
+              "marginRight": 10,
+              "tintColor": "#2559F2",
+              "width": 18,
+            },
+          ]
+        }
+      />
+      <Text
+        isActive={false}
+        size={13}
+        style={
+          Array [
+            Object {
+              "color": "#2559F2",
+              "fontFamily": "Kanit-Medium",
+              "fontSize": 13,
+              "letterSpacing": 1,
+            },
+          ]
+        }
+        weight={500}
+      >
+        TEST
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<ParticipationButton /> match snapshot with active 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "transform": Array [
+          Object {
+            "scale": 1,
+          },
+        ],
+      }
+    }
+  >
+    <View
+      color="red"
+      isActive={true}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "red",
+            "borderColor": "red",
+            "borderRadius": 50,
+            "borderWidth": 2,
+            "flexDirection": "row",
+            "height": 50,
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <Image
+        color="red"
+        isActive={true}
+        style={
+          Array [
+            Object {
+              "height": 18,
+              "marginRight": 10,
+              "tintColor": "#FFFFFF",
+              "width": 18,
+            },
+          ]
+        }
+      />
+      <Text
+        isActive={true}
+        size={13}
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Kanit-Medium",
+              "fontSize": 13,
+              "letterSpacing": 1,
+            },
+          ]
+        }
+        weight={500}
+      >
+        TEST
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<ParticipationButton /> match snapshot with color 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "transform": Array [
+          Object {
+            "scale": 1,
+          },
+        ],
+      }
+    }
+  >
+    <View
+      color="blue"
+      isActive={false}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#2559f233",
+            "borderRadius": 50,
+            "borderWidth": 2,
+            "flexDirection": "row",
+            "height": 50,
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <Image
+        color="blue"
+        isActive={false}
+        style={
+          Array [
+            Object {
+              "height": 18,
+              "marginRight": 10,
+              "tintColor": "#2559F2",
+              "width": 18,
+            },
+          ]
+        }
+      />
+      <Text
+        isActive={false}
+        size={13}
+        style={
+          Array [
+            Object {
+              "color": "#2559F2",
+              "fontFamily": "Kanit-Medium",
+              "fontSize": 13,
+              "letterSpacing": 1,
+            },
+          ]
+        }
+        weight={500}
+      >
+        TEST
+      </Text>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> match snapshot 1`] = `
+<RCTScrollView
+  ItemSeparatorComponent={[Function]}
+  data={
+    Array [
+      Object {
+        "enddate": "2023-02-16T20:35:00+00:00",
+        "id": 1,
+        "information": "N’oubliez pas vos lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "location": Object {
+          "address": "12 rue de l’Extenwoerth",
+          "city": "67100 Strasbourg",
+          "place": "Stade de la Meinau",
+        },
+        "participation": null,
+        "startdate": "2023-02-16T20:35:00+00:00",
+        "title": "Entraînement à Strasbourg",
+      },
+      Object {
+        "enddate": "2023-02-16T20:35:00+00:00",
+        "id": 2,
+        "information": null,
+        "location": Object {
+          "address": "24 Rue du Commandant Guilbaud",
+          "city": "75016 Paris",
+          "place": "Le Parc des Princes",
+        },
+        "participation": "ABSENT",
+        "startdate": "2023-02-08T19:35:00+00:00",
+        "title": "Entraînement à Paris",
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#ffffff",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      },
+    ]
+  }
+  viewabilityConfigCallbackPairs={Array []}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "transform": Array [
+                Object {
+                  "scale": 1,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            isActive={false}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#2559f233",
+                  "borderRadius": 50,
+                  "borderWidth": 2,
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "center",
+                },
+              ]
+            }
+          >
+            <Image
+              isActive={false}
+              style={
+                Array [
+                  Object {
+                    "height": 18,
+                    "marginRight": 10,
+                    "tintColor": "#2559F2",
+                    "width": 18,
+                  },
+                ]
+              }
+            />
+            <Text
+              isActive={false}
+              size={13}
+              style={
+                Array [
+                  Object {
+                    "color": "#2559F2",
+                    "fontFamily": "Kanit-Medium",
+                    "fontSize": 13,
+                    "letterSpacing": 1,
+                  },
+                ]
+              }
+              weight={500}
+            >
+              ENTRAÎNEMENT À STRASBOURG
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#dfe5ec",
+              "height": 1,
+              "lineHeight": 28,
+              "marginBottom": 15,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 15,
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "transform": Array [
+                Object {
+                  "scale": 1,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            color="#EF4948"
+            isActive={true}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#EF4948",
+                  "borderColor": "#EF4948",
+                  "borderRadius": 50,
+                  "borderWidth": 2,
+                  "flexDirection": "row",
+                  "height": 50,
+                  "justifyContent": "center",
+                },
+              ]
+            }
+          >
+            <Image
+              color="#EF4948"
+              isActive={true}
+              style={
+                Array [
+                  Object {
+                    "height": 18,
+                    "marginRight": 10,
+                    "tintColor": "#FFFFFF",
+                    "width": 18,
+                  },
+                ]
+              }
+            />
+            <Text
+              isActive={true}
+              size={13}
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "Kanit-Medium",
+                    "fontSize": 13,
+                    "letterSpacing": 1,
+                  },
+                ]
+              }
+              weight={500}
+            >
+              ENTRAÎNEMENT À PARIS
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

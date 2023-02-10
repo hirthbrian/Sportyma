@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Information /> match snapshot 1`] = `
+Array [
+  <Text
+    size={20}
+    style={
+      Array [
+        Object {
+          "color": "#152D4B",
+          "fontFamily": "Kanit-Medium",
+          "fontSize": 20,
+        },
+      ]
+    }
+    weight={500}
+  >
+    Informations
+  </Text>,
+  <Text
+    color="#152D4B"
+    style={
+      Array [
+        Object {
+          "color": "#152D4B",
+          "fontFamily": "Kanit-Light",
+          "fontSize": 16,
+        },
+      ]
+    }
+    weight={300}
+  >
+    bla bla bla
+  </Text>,
+]
+`;

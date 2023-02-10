@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DayPill /> match snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#2559f2",
+        "borderRadius": 30,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#ffffff",
+          "fontFamily": "Kanit-Regular",
+          "fontSize": 16,
+          "letterSpacing": 1,
+          "paddingBottom": 4,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 4,
+        },
+        Object {
+          "fontSize": 12,
+        },
+      ]
+    }
+  >
+    16 FEBRUARY
+  </Text>
+</View>
+`;

@@ -4,6 +4,7 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
+    "test": "jest",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
@@ -32,7 +33,12 @@
     "typescript": "^4.9.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@types/jest": "^29.4.0"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "setupFiles": ["./jest-setup.js"]
   },
   "private": true
 }

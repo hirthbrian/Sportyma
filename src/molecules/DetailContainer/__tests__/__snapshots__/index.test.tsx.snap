@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DetailContainer /> match snapshot 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "paddingTop": 15,
+      },
+    ]
+  }
+>
+  <View
+    color="#E3E8F9"
+    size={36}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E3E8F9",
+          "borderRadius": 18,
+          "height": 36,
+          "justifyContent": "center",
+          "marginRight": 10,
+          "width": 36,
+        },
+      ]
+    }
+  >
+    <Image
+      color="#2559F2"
+      source={1}
+      style={
+        Array [
+          Object {
+            "height": 18,
+            "tintColor": "#2559F2",
+            "width": 18,
+          },
+        ]
+      }
+    />
+  </View>
+  <View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#152D4B",
+            "fontFamily": "Kanit-Regular",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      test
+    </Text>
+    <Text
+      color="#778EB9"
+      style={
+        Array [
+          Object {
+            "color": "#778EB9",
+            "fontFamily": "Kanit-Light",
+            "fontSize": 16,
+          },
+        ]
+      }
+      weight={300}
+    >
+      sub test
+    </Text>
+  </View>
+</View>
+`;
