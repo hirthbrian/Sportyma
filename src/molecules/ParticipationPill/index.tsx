@@ -1,4 +1,4 @@
-import { Container, Text } from "./styles";
+import { Container, Text, Image } from "./styles";
 
 import { Props } from "./types";
 
@@ -11,7 +11,10 @@ const ParticipationPill = ({
 }: Props) => {
   return (
     <Container isActive={isActive} color={activeColor} onPress={onPress}>
-      <Text isActive={isActive}>{title.toUpperCase()}</Text>
+      <Image source={icon} isActive={isActive} color={activeColor} />
+      <Text size={13} weight={500} isActive={isActive}>
+        {title.toUpperCase()}
+      </Text>
     </Container>
   );
 };

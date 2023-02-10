@@ -20,7 +20,7 @@ const Event = () => {
   const route = useRoute();
   const event = data[route.params.id - 1];
 
-  const { id, title, startdate, enddate, information, location } = event;
+  const { id, title, startdate, enddate, location, information } = event;
 
   useEffect(() => {
     navigation.setOptions({ title });
@@ -38,8 +38,12 @@ const Event = () => {
         endDate={enddate}
         location={location}
       />
-      <Separator />
-      <Information info={information} />
+      {information && (
+        <>
+          <Separator />
+          <Information info={information} />
+        </>
+      )}
     </Container>
   );
 };

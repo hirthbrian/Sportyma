@@ -27,14 +27,10 @@ export const participationSlice = createSlice({
     refuse: (state, action: PayloadAction<number>) => {
       state[action.payload] = "ABSENT";
     },
-    // Use the PayloadAction type to declare the contents of `action.payload`
-    cancel: (state, action: PayloadAction<number>) => {
-      state[action.payload] = null;
-    },
   },
 });
 
-export const { approve, refuse, cancel } = participationSlice.actions;
+export const { approve, refuse } = participationSlice.actions;
 
 // Other code such as selectors can use the imported `RootState` type
 export const selectParticipationStatus = (state: RootState) =>

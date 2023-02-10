@@ -1,4 +1,4 @@
-import { Alert, GestureResponderEvent, View } from "react-native";
+import { View } from "react-native";
 import Button from "../atoms/Button";
 
 type ItemProps = {

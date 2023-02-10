@@ -12,6 +12,7 @@ export const Container = styled.Pressable`
     props.isActive ? props.color : "#FFFFFF"};
   border-radius: 50px;
   width: 160px;
+  flex-direction: row;
   height: 50px;
   align-items: center;
   justify-content: center;
@@ -20,5 +21,14 @@ export const Container = styled.Pressable`
 `;
 
 export const Text = styled(TextKanit)`
+  padding-left: 10px;
+  letter-spacing: 1px;
   color: ${(props: ContainerProps) => (props.isActive ? "#FFFFFF" : "#2559F2")};
+`;
+
+export const Image = styled.Image`
+  width: 18px;
+  height: 18px;
+  tint-color: ${(props: ContainerProps) =>
+    props.isActive ? "#FFFFFF" : "#2559F2"};
 `;

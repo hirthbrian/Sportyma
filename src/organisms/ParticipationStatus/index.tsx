@@ -5,7 +5,7 @@ import ParticipationPill from "../../molecules/ParticipationPill";
 
 import { useAppSelector, useAppDispatch } from "../../redux/hook";
 
-import { approve, refuse, cancel } from "../../redux/participationSlice";
+import { approve, refuse } from "../../redux/participationSlice";
 
 import { Props } from "./types";
 
@@ -33,7 +33,13 @@ const ParticipationStatus = ({ eventId }: Props) => {
   return (
     <>
       <SectionTitle title="Ma participation" />
-      <View style={{ paddingTop: 15, flexDirection: "row", justifyContent: "space-between" }}>
+      <View
+        style={{
+          paddingTop: 15,
+          flexDirection: "row",
+          justifyContent: "space-between",
+        }}
+      >
         <ParticipationPill
           title="Présent"
           icon={tickIcon}
@@ -49,16 +55,6 @@ const ParticipationStatus = ({ eventId }: Props) => {
           isActive={participationStatus === "ABSENT"}
         />
       </View>
-      {/* <Button
-        title="Present"
-        onPress={onPresentPress}
-        color={participationStatus === "PRESENT" ? "#29D48C" : "blue"}
-      />
-      <Button
-        title="Absent"
-        onPress={onAbsentPress}
-        color={participationStatus === "ABSENT" ? "#EF4948" : "blue"}
-      /> */}
     </>
   );
 };
