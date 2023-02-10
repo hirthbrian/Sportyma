@@ -9,9 +9,6 @@ import { Props } from "./types";
 const PageHeader = ({ title, date }: Props) => {
   return (
     <Container>
-      <Text size={22} style={{ fontSize: 22 }}>
-        {title}
-      </Text>
       <DayPill date={date} />
       <Text size={20}>{format(new Date(date), "HH:mm")}</Text>
     </Container>

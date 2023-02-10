@@ -1,4 +1,4 @@
-import { Alert, View } from "react-native";
+import { View } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
 import trainig1 from "../../../data/training_1.json";
@@ -12,7 +12,7 @@ const data = [trainig1, trainig2];
 const Home = () => {
   const navigation = useNavigation();
 
-  const onPress = () => navigation.navigate("Event", );
+  const onPress = (id: number) => navigation.navigate("Event", { id });
 
   const renderItems = (r) => (
     <Item key={r.id} id={r.id} title={r.title} onPress={onPress} />

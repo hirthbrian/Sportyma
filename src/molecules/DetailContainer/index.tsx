@@ -1,4 +1,4 @@
-import { View } from "react-native";
+import { View, Image } from "react-native";
 
 import Circle from "../../atoms/Circle";
 import Text from "../../atoms/TextKanit";
@@ -7,11 +7,14 @@ import { Container } from "./styles";
 
 import { Props } from "./types";
 
-const DetailContainer = ({ title, subTitle }: Props) => {
+const DetailContainer = ({ title, subTitle, icon }: Props) => {
   return (
     <Container>
       <Circle size={36} color="#E3E8F9">
-        <View style={{ width: 18, height: 18, backgroundColor: "#2559F2" }} />
+        <Image
+          source={icon}
+          style={{ width: 18, height: 18, tintColor: "#2559F2" }}
+        />
       </Circle>
       <View>
         <Text>{title}</Text>
