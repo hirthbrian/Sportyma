@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-import TextKanit from "./TextKanit";
+import KanitText from "./KanitText";
 
-const Text = styled(TextKanit)``;
+const Text = styled(KanitText)``;
 
 export default ({ title }) => (
   <Text weight={500} size={20}>

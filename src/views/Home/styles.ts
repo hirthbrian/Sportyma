@@ -1,11 +1,7 @@
-import { StyleSheet } from "react-native";
+import styled from "styled-components";
 
-export default StyleSheet.create({
-  container: {
-    flex: 1,
-    padding: 35,
-    alignContent: "flex-start",
-    backgroundColor: "#fff",
-    justifyContent: "center",
-  },
-});
+export const Container = styled.FlatList`
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+`;

@@ -1,27 +1,26 @@
 import styled from "styled-components";
 
-import TextKanit from "../../atoms/TextKanit";
+import KanitText from "../../atoms/KanitText";
 
 interface ContainerProps {
   color: string;
   isActive: boolean;
 }
 
-export const Container = styled.Pressable`
+export const Container = styled.View`
   background-color: ${(props: ContainerProps) =>
     props.isActive ? props.color : "#FFFFFF"};
   border-radius: 50px;
-  width: 160px;
-  flex-direction: row;
   height: 50px;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  border-color: #2559f233;
-  border-width: ${(props: ContainerProps) => (props.isActive ? 0 : 2)}px;
+  border-color: ${(props: ContainerProps) =>
+    props.isActive ? props.color : "#2559f233"};
+  border-width: 2px;
 `;
 
-export const Text = styled(TextKanit)`
-  padding-left: 10px;
+export const Text = styled(KanitText)`
   letter-spacing: 1px;
   color: ${(props: ContainerProps) => (props.isActive ? "#FFFFFF" : "#2559F2")};
 `;
@@ -29,6 +28,7 @@ export const Text = styled(TextKanit)`
 export const Image = styled.Image`
   width: 18px;
   height: 18px;
+  margin-right: 10px;
   tint-color: ${(props: ContainerProps) =>
     props.isActive ? "#FFFFFF" : "#2559F2"};
 `;

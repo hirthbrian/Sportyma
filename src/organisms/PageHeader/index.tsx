@@ -1,16 +1,16 @@
 import { format } from "date-fns";
 
-import Text from "../../atoms/TextKanit";
+import KanitText from "../../atoms/KanitText";
 import DayPill from "../../molecules/DayPill";
 
 import { Container } from "./styles";
 import { Props } from "./types";
 
-const PageHeader = ({ title, date }: Props) => {
+const PageHeader = ({ date }: Props) => {
   return (
     <Container>
       <DayPill date={date} />
-      <Text size={20}>{format(new Date(date), "HH:mm")}</Text>
+      <KanitText size={20}>{format(new Date(date), "HH:mm")}</KanitText>
     </Container>
   );
 };

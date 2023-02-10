@@ -28,7 +28,7 @@ const Event = () => {
 
   return (
     <Container>
-      <PageHeader title={title} date={startdate} />
+      <PageHeader date={startdate} />
       <Separator />
       <ParticipationStatus eventId={id} />
       <Separator />

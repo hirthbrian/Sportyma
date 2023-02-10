@@ -1,19 +1,28 @@
 import { StatusBar } from "expo-status-bar";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { setDefaultOptions } from "date-fns";
+import { fr } from "date-fns/locale";
 import { useFonts } from "expo-font";
 import { Provider } from "react-redux";
 
 import { store } from "./src/redux/store";
 
-var setDefaultOptions = require("date-fns/setDefaultOptions");
-import { fr } from "date-fns/locale";
+import { Event, Home } from "./src/views";
+
 setDefaultOptions({ locale: fr });
 
-import Home from "./src/views/Home";
-import Event from "./src/views/Event";
-
 const Stack = createNativeStackNavigator();
+
+const screenOptions = {
+  headerShadowVisible: false,
+  headerBackTitleVisible: false,
+  headerTintColor: "#152D4B",
+  headerTitleStyle: {
+    fontFamily: "Kanit-Medium",
+    fontSize: 22,
+  },
+};
 
 const App = () => {
   const [fontsLoaded] = useFonts({
@@ -28,17 +37,7 @@ const App = () => {
     <Provider store={store}>
       <StatusBar style="auto" />
       <NavigationContainer>
-        <Stack.Navigator
-          screenOptions={{
-            headerShadowVisible: false,
-            headerBackTitleVisible: false,
-            headerTintColor: "#152D4B",
-            headerTitleStyle: {
-              fontFamily: "Kanit-Medium",
-              fontSize: 22,
-            },
-          }}
-        >
+        <Stack.Navigator screenOptions={screenOptions}>
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="Event" component={Event} />
         </Stack.Navigator>

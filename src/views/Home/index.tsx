@@ -1,24 +1,32 @@
-import { View } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+
+import ParticicationPill from "../../molecules/ParticipationPill";
+import Separator from "../../atoms/Separator";
 
 import trainig1 from "../../../data/training_1.json";
 import trainig2 from "../../../data/training_2.json";
-import Item from "../../organisms/Item";
 
-import styles from "./styles";
+import { Container } from "./styles";
 
 const data = [trainig1, trainig2];
 
 const Home = () => {
   const navigation = useNavigation();
 
-  const onPress = (id: number) => navigation.navigate("Event", { id });
-
-  const renderItems = (r) => (
-    <Item key={r.id} id={r.id} title={r.title} onPress={onPress} />
+  const renderItem = ({ item: { title, id } }) => (
+    <ParticicationPill
+      title={title}
+      onPress={() => navigation.navigate("Event", { id })}
+    />
   );
 
-  return <View style={styles.container}>{data.map(renderItems)}</View>;
+  return (
+    <Container
+      data={data}
+      renderItem={renderItem}
+      ItemSeparatorComponent={() => <Separator />}
+    />
+  );
 };
 
 export default Home;

@@ -1,4 +1,3 @@
-import { View } from "react-native";
 
 import SectionTitle from "../../atoms/SectionTitle";
 import ParticipationPill from "../../molecules/ParticipationPill";
@@ -8,6 +7,7 @@ import { useAppSelector, useAppDispatch } from "../../redux/hook";
 import { approve, refuse } from "../../redux/participationSlice";
 
 import { Props } from "./types";
+import { Container, HorizontalSeparator } from "./styles";
 
 const tickIcon = require("../../../assets/tick.png");
 const crossIcon = require("../../../assets/cross.png");
@@ -33,13 +33,7 @@ const ParticipationStatus = ({ eventId }: Props) => {
   return (
     <>
       <SectionTitle title="Ma participation" />
-      <View
-        style={{
-          paddingTop: 15,
-          flexDirection: "row",
-          justifyContent: "space-between",
-        }}
-      >
+      <Container>
         <ParticipationPill
           title="Présent"
           icon={tickIcon}
@@ -47,6 +41,7 @@ const ParticipationStatus = ({ eventId }: Props) => {
           onPress={onPresentPress}
           isActive={participationStatus === "PRESENT"}
         />
+        <HorizontalSeparator />
         <ParticipationPill
           title="Absent"
           icon={crossIcon}
@@ -54,7 +49,7 @@ const ParticipationStatus = ({ eventId }: Props) => {
           onPress={onAbsentPress}
           isActive={participationStatus === "ABSENT"}
         />
-      </View>
+      </Container>
     </>
   );
 };

@@ -1,7 +1,7 @@
 import { View } from "react-native";
 
 import Circle from "../../atoms/Circle";
-import Text from "../../atoms/TextKanit";
+import KanitText from "../../atoms/KanitText";
 
 import { Container, Image } from "./styles";
 
@@ -14,10 +14,10 @@ const DetailContainer = ({ title, subTitle, icon, onPress }: Props) => {
         <Image source={icon} color="#2559F2" />
       </Circle>
       <View>
-        <Text>{title}</Text>
-        <Text weight={300} color="#778EB9">
+        <KanitText>{title}</KanitText>
+        <KanitText weight={300} color="#778EB9">
           {subTitle}
-        </Text>
+        </KanitText>
       </View>
     </Container>
   );
