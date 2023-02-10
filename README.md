@@ -1,5 +1,6 @@
 # Test React Native LVL 2
 
+![](https://github.com/hirthbrian/Sportyma/assets/demo.gif)
 
 ## Installation
 
@@ -11,13 +12,12 @@
 ### Installation
 
 ```bash
-git clone https://bitbucket.org/sportyma/test_react_native_lvl_2.git
+git clone https://github.com/hirthbrian/Sportyma
 npm install
-# Take a cup of coffee... ;)
 ```
 
 ## Running
 
 ### Start
 
-After installation execute a simple : ```npm start ``` and see information.
+After installation execute a simple : `npm start ` and see information.
