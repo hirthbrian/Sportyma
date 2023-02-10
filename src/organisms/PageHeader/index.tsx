@@ -1,7 +1,7 @@
 import { format } from "date-fns";
 
-import KanitText from "../../atoms/KanitText";
-import DayPill from "../../molecules/DayPill";
+import { KanitText } from "../../atoms";
+import { DayPill } from "../../molecules";
 
 import { Container } from "./styles";
 import { Props } from "./types";

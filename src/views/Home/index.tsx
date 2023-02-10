@@ -1,24 +1,36 @@
 import { useNavigation } from "@react-navigation/native";
+import { useAppSelector } from "../../redux/hook";
 
-import ParticicationPill from "../../molecules/ParticipationPill";
-import Separator from "../../atoms/Separator";
-
-import trainig1 from "../../../data/training_1.json";
-import trainig2 from "../../../data/training_2.json";
+import { ParticipationPill } from "../../molecules";
+import { Separator } from "../../atoms";
+import { loadEventData } from "../../utils";
 
 import { Container } from "./styles";
 
-const data = [trainig1, trainig2];
-
 const Home = () => {
+  const participationStatus = useAppSelector((state) => state.participation);
   const navigation = useNavigation();
+  const data = loadEventData();
 
-  const renderItem = ({ item: { title, id } }) => (
-    <ParticicationPill
-      title={title}
-      onPress={() => navigation.navigate("Event", { id })}
-    />
-  );
+  const getActiveColor = (status: string) => {
+    if (status === "PRESENT") {
+      return "#29D48C";
+    } else if (status === "ABSENT") {
+      return "#EF4948";
+    }
+  };
+
+  const renderItem = ({ item: { title, id } }) => {
+    const status = participationStatus[id];
+    return (
+      <ParticipationPill
+        title={title}
+        activeColor={getActiveColor(status)}
+        isActive={status === "PRESENT" || status === "ABSENT"}
+        onPress={() => navigation.navigate("Event", { id })}
+      />
+    );
+  };
 
   return (
     <Container

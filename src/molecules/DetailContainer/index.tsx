@@ -1,7 +1,6 @@
 import { View } from "react-native";
 
-import Circle from "../../atoms/Circle";
-import KanitText from "../../atoms/KanitText";
+import { Circle, KanitText } from "../../atoms";
 
 import { Container, Image } from "./styles";
 

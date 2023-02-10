@@ -1,17 +1,14 @@
 import { Platform, Linking } from "react-native";
 import { format } from "date-fns";
 
-import SectionTitle from "../../atoms/SectionTitle";
-
-import DetailContainer from "../../molecules/DetailContainer";
+import { SectionTitle } from "../../atoms";
+import { DetailContainer } from "../../molecules";
+import { capitalizeFirstLetter } from "../../utils";
 
 import { Props } from "./types";
 
 const calendarIcon = require("../../../assets/calendar.png");
 const positionIcon = require("../../../assets/location.png");
-
-const capitalizeFirstLetter = (text: string) =>
-  text.charAt(0).toUpperCase() + text.slice(1);
 
 const EventDetails = ({ title, startDate, endDate, location }: Props) => {
   const fullDate = capitalizeFirstLetter(

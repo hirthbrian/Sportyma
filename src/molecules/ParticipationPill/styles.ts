@@ -7,11 +7,15 @@ interface ContainerProps {
   isActive: boolean;
 }
 
+export const PressableContainer = styled.Pressable`
+  flex: 1;
+`;
+
 export const Container = styled.View`
+  height: 50px;
   background-color: ${(props: ContainerProps) =>
     props.isActive ? props.color : "#FFFFFF"};
   border-radius: 50px;
-  height: 50px;
   flex-direction: row;
   align-items: center;
   justify-content: center;

@@ -1,6 +1,4 @@
-import SectionTitle from "../../atoms/SectionTitle";
-
-import KanitText from "../../atoms/KanitText";
+import { SectionTitle, KanitText } from "../../atoms";
 
 import { Props } from "./types";
 
