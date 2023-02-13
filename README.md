@@ -1,6 +1,6 @@
 # Test React Native LVL 2
 
-![](https://github.com/hirthbrian/Sportyma/blob/main/assets/demo.gif)
+![](https://github.com/hirthbrian/Sportyma/blob/main/assets/gif/demo.gif)
 
 ## Installation
 

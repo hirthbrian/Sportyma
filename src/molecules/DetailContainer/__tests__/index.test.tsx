@@ -3,7 +3,7 @@ import renderer from "react-test-renderer";
 
 import DetailContainer from "..";
 
-const icon = require("../../../../assets/calendar.png");
+const icon = require("../../../../assets/icons/calendar.png");
 
 describe("<DetailContainer />", () => {
   let props;

@@ -7,8 +7,8 @@ import { capitalizeFirstLetter } from "../../utils";
 
 import { Props } from "./types";
 
-const calendarIcon = require("../../../assets/calendar.png");
-const positionIcon = require("../../../assets/location.png");
+const calendarIcon = require("../../../assets/icons/calendar.png");
+const positionIcon = require("../../../assets/icons/location.png");
 
 const EventDetails = ({ title, startDate, endDate, location }: Props) => {
   const fullDate = capitalizeFirstLetter(

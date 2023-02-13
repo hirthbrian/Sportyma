@@ -9,8 +9,8 @@ import { Props } from "./types";
 import { Container, HorizontalSeparator } from "./styles";
 import { ParticipationEnum, Colors } from "../../types";
 
-const tickIcon = require("../../../assets/tick.png");
-const crossIcon = require("../../../assets/cross.png");
+const tickIcon = require("../../../assets/icons/tick.png");
+const crossIcon = require("../../../assets/icons/cross.png");
 
 const ParticipationStatus = ({ eventId }: Props) => {
   const participationStatus = useAppSelector(
