@@ -11,5 +11,6 @@ export enum Colors {
   BluePrimary = "#2559F2",
   Blue03 = "#E3E8F9",
   Grey01 = "#778EB9",
+  Grey04 = "#DFE5EC",
   BlueTransparent = "#2559f233",
 }

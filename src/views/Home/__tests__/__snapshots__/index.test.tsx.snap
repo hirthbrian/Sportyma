@@ -50,7 +50,7 @@ exports[`<Home /> match snapshot 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#FFFFFF",
         "flexBasis": 0,
         "flexGrow": 1,
         "flexShrink": 1,
@@ -156,7 +156,7 @@ exports[`<Home /> match snapshot 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#dfe5ec",
+              "backgroundColor": "#DFE5EC",
               "height": 1,
               "lineHeight": 28,
               "marginBottom": 15,

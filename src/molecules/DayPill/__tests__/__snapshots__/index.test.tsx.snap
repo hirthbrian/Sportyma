@@ -5,7 +5,7 @@ exports[`<DayPill /> match snapshot 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#2559f2",
+        "backgroundColor": "#2559F2",
         "borderRadius": 30,
       },
     ]
@@ -15,7 +15,7 @@ exports[`<DayPill /> match snapshot 1`] = `
     style={
       Array [
         Object {
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "fontFamily": "Kanit-Regular",
           "fontSize": 16,
           "letterSpacing": 1,

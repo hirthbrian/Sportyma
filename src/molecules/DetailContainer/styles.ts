@@ -1,5 +1,7 @@
 import styled from "styled-components/native";
 
+import { Colors } from "../../types";
+
 interface ImageProps {
   color: string;
 }
@@ -10,7 +12,7 @@ export const Container = styled.Pressable`
 `;
 
 export const Day = styled.Text`
-  color: #ffffff;
+  color: ${Colors.White};
   padding: 4px 10px;
 `;
 
