@@ -1,5 +1,7 @@
 import styled from "styled-components/native";
 
+import { Colors } from "../types";
+
 interface Props {
   size?: number;
   color?: string;
@@ -14,5 +16,5 @@ export default styled.Text`
     return "Kanit-Regular";
   }};
   font-size: ${(props: Props) => props.size || 16}px;
-  color: ${(props: Props) => props.color || "#152D4B"};
+  color: ${(props: Props) => props.color || Colors.Black};
 `;

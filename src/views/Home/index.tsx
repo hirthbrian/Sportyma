@@ -4,7 +4,7 @@ import { useAppSelector } from "../../redux/hook";
 import { ParticipationButton } from "../../molecules";
 import { Separator } from "../../atoms";
 import { loadEventData } from "../../utils";
-import { ParticipationEnum } from "../../types";
+import { ParticipationEnum, Colors } from "../../types";
 
 import { Container } from "./styles";
 
@@ -15,9 +15,9 @@ const Home = () => {
 
   const getActiveColor = (status: string) => {
     if (status === ParticipationEnum.Present) {
-      return "#29D48C";
+      return Colors.GreenSecondary;
     } else if (status === ParticipationEnum.Absent) {
-      return "#EF4948";
+      return Colors.RedAlert;
     }
   };
 

@@ -9,6 +9,7 @@ import { Provider } from "react-redux";
 import { store } from "./src/redux/store";
 
 import { Event, Home } from "./src/views";
+import { Colors } from "./src/types";
 
 setDefaultOptions({ locale: fr });
 
@@ -17,7 +18,7 @@ const Stack = createNativeStackNavigator();
 const screenOptions = {
   headerShadowVisible: false,
   headerBackTitleVisible: false,
-  headerTintColor: "#152D4B",
+  headerTintColor: Colors.Black,
   headerTitleStyle: {
     fontFamily: "Kanit-Medium",
     fontSize: 22,

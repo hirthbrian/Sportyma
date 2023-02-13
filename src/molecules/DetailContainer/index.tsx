@@ -5,16 +5,17 @@ import { Circle, KanitText } from "../../atoms";
 import { Container, Image } from "./styles";
 
 import { Props } from "./types";
+import { Colors } from "../../types";
 
 const DetailContainer = ({ title, subTitle, icon, onPress }: Props) => {
   return (
     <Container onPress={onPress}>
-      <Circle size={36} color="#E3E8F9">
-        <Image source={icon} color="#2559F2" />
+      <Circle size={36} color={Colors.Blue03}>
+        <Image source={icon} color={Colors.BluePrimary} />
       </Circle>
       <View>
         <KanitText>{title}</KanitText>
-        <KanitText weight={300} color="#778EB9">
+        <KanitText weight={300} color={Colors.Grey01}>
           {subTitle}
         </KanitText>
       </View>
