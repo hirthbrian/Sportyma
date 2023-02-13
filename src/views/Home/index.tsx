@@ -4,6 +4,7 @@ import { useAppSelector } from "../../redux/hook";
 import { ParticipationButton } from "../../molecules";
 import { Separator } from "../../atoms";
 import { loadEventData } from "../../utils";
+import { ParticipationEnum } from "../../types";
 
 import { Container } from "./styles";
 
@@ -13,9 +14,9 @@ const Home = () => {
   const data = loadEventData();
 
   const getActiveColor = (status: string) => {
-    if (status === "PRESENT") {
+    if (status === ParticipationEnum.Present) {
       return "#29D48C";
-    } else if (status === "ABSENT") {
+    } else if (status === ParticipationEnum.Absent) {
       return "#EF4948";
     }
   };
@@ -26,7 +27,10 @@ const Home = () => {
       <ParticipationButton
         title={title}
         activeColor={getActiveColor(status)}
-        isActive={status === "PRESENT" || status === "ABSENT"}
+        isActive={
+          status === ParticipationEnum.Present ||
+          status === ParticipationEnum.Absent
+        }
         onPress={() => navigation.navigate("Event", { id })}
       />
     );

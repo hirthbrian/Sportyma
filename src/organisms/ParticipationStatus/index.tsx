@@ -7,6 +7,7 @@ import { approve, refuse } from "../../redux/participationSlice";
 
 import { Props } from "./types";
 import { Container, HorizontalSeparator } from "./styles";
+import { ParticipationEnum } from "../../types";
 
 const tickIcon = require("../../../assets/tick.png");
 const crossIcon = require("../../../assets/cross.png");
@@ -18,13 +19,13 @@ const ParticipationStatus = ({ eventId }: Props) => {
   const dispatch = useAppDispatch();
 
   const onPresentPress = () => {
-    if (participationStatus !== "PRESENT") {
+    if (participationStatus !== ParticipationEnum.Present) {
       dispatch(approve(eventId));
     }
   };
 
   const onAbsentPress = () => {
-    if (participationStatus !== "ABSENT") {
+    if (participationStatus !== ParticipationEnum.Absent) {
       dispatch(refuse(eventId));
     }
   };
@@ -38,7 +39,7 @@ const ParticipationStatus = ({ eventId }: Props) => {
           icon={tickIcon}
           activeColor="#29D48C"
           onPress={onPresentPress}
-          isActive={participationStatus === "PRESENT"}
+          isActive={participationStatus === ParticipationEnum.Present}
         />
         <HorizontalSeparator />
         <ParticipationButton
@@ -46,7 +47,7 @@ const ParticipationStatus = ({ eventId }: Props) => {
           icon={crossIcon}
           activeColor="#EF4948"
           onPress={onAbsentPress}
-          isActive={participationStatus === "ABSENT"}
+          isActive={participationStatus === ParticipationEnum.Absent}
         />
       </Container>
     </>

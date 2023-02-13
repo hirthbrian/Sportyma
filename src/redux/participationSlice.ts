@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
 
 import { loadEventData } from "../utils";
+import { ParticipationEnum } from "../types";
 
 const data = loadEventData();
 
@@ -19,10 +20,10 @@ export const participationSlice = createSlice({
   initialState,
   reducers: {
     approve: (state, action: PayloadAction<number>) => {
-      state[action.payload] = "PRESENT";
+      state[action.payload] = ParticipationEnum.Present;
     },
     refuse: (state, action: PayloadAction<number>) => {
-      state[action.payload] = "ABSENT";
+      state[action.payload] = ParticipationEnum.Absent;
     },
   },
 });
